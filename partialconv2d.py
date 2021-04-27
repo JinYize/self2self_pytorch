@@ -27,6 +27,10 @@ class PartialConv2d(nn.Conv2d):
         else:
             self.return_mask = False
 
+        #####Yize's fixes
+        self.multi_channel = True
+        self.return_mask = True
+        
         super(PartialConv2d, self).__init__(*args, **kwargs)
 
         if self.multi_channel:
