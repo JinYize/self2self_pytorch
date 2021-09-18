@@ -11,3 +11,6 @@ The denoised images will be saved in images/, and the corresponding models will 
 
 ## Examples
 Some results are shown here.
+![image info](./examples/Self2Self-2000.png)
+![image info](./examples/Self2Self-21000.png)
+![image info](./examples/Self2Self-126000.png)
