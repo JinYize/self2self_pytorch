@@ -10,8 +10,10 @@ python self2self.py
 The denoised images will be saved in images/, and the corresponding models will be saved in models/.
 
 ## Examples
-The results of after 2000, 20000, and 12600 iterations are shown below.
+The original image, noisy image, and the results after 2000, 20000, and 12600 iterations are shown below.
 
+![original](./examples/5.png "the original image")
+![noisy](./examples/noisy.png "the noisy image")
 ![2000 iterations](./examples/Self2Self-2000.png "2000 iterations")
 ![20000 iterations](./examples/Self2Self-21000.png "20000 iterations")
 ![126000 iterations](./examples/Self2Self-126000.png "126000 iterations")
